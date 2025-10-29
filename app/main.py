@@ -57,6 +57,15 @@ async def health_check():
         "app": settings.APP_NAME
     }
 
+@app.get("/api/health/check")
+async def health_check():
+    return {
+        "success": True,
+        "message": "Service is healthy.",
+        "environment": settings.ENVIRONMENT,
+        "app": settings.APP_NAME
+    }
+
 app.include_router(master_data_controller.router)
 
 # ----------------------- Startup Event -----------------------

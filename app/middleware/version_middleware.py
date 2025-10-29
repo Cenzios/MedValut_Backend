@@ -16,7 +16,7 @@ class VersionMiddleware(BaseHTTPMiddleware):
         "/health_check",
         "/api/v1/",
         "/api/v1/health_check",
-        "/api/health/check"
+        "/api/health/check",
         "/master_data",
     ]
 

@@ -79,3 +79,5 @@
 2025-10-24 22:58:33,351 | INFO | medvault_logger | Requested master data for type: alcohol_levels
 2025-10-24 22:58:33,356 | INFO | medvault_logger | Fetched 3 rows for alcohol_levels
 2025-10-24 22:58:33,357 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/alcohol_levels", "status_code": 200, "process_time": "0.008s", "request_body": null}
+2025-10-29 13:17:09,424 | INFO | medvault_logger | {"method": "GET", "url": "http://localhost:8000/api/health/check", "status_code": 404, "process_time": "0.001s", "request_body": null}
+2025-10-29 13:18:30,352 | INFO | medvault_logger | {"method": "GET", "url": "http://localhost:8000/api/health/check", "status_code": 200, "process_time": "0.001s", "request_body": null}
