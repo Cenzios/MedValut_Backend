@@ -1,0 +1,81 @@
+2025-10-24 10:36:27,473 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/", "status_code": 200, "process_time": "0.002s", "request_body": null}
+2025-10-24 11:22:21,440 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/", "status_code": 200, "process_time": "0.002s", "request_body": null}
+2025-10-24 11:29:23,208 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master_data", "status_code": 404, "process_time": "0.003s", "request_body": null}
+2025-10-24 11:30:10,787 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master_data", "status_code": 404, "process_time": "0.001s", "request_body": null}
+2025-10-24 11:30:11,814 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master_data", "status_code": 404, "process_time": "0.000s", "request_body": null}
+2025-10-24 11:31:31,676 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master_data", "status_code": 404, "process_time": "0.001s", "request_body": null}
+2025-10-24 11:31:40,889 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master_data", "status_code": 404, "process_time": "0.001s", "request_body": null}
+2025-10-24 11:32:14,681 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master_data", "status_code": 404, "process_time": "0.001s", "request_body": null}
+2025-10-24 11:32:15,750 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master_data", "status_code": 404, "process_time": "0.001s", "request_body": null}
+2025-10-24 11:32:16,396 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master_data", "status_code": 404, "process_time": "0.000s", "request_body": null}
+2025-10-24 14:19:16,442 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.007s", "request_body": null}
+2025-10-24 14:19:16,476 | ERROR | medvault_logger | HTTP Error: Object of type Gender is not JSON serializable
+2025-10-24 14:20:19,168 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
+2025-10-24 14:20:19,174 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/", "status_code": 200, "process_time": "0.001s", "request_body": null}
+2025-10-24 14:21:15,585 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
+2025-10-24 14:21:15,588 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/", "status_code": 200, "process_time": "0.001s", "request_body": null}
+2025-10-24 14:21:31,998 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
+2025-10-24 14:21:32,002 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/", "status_code": 200, "process_time": "0.001s", "request_body": null}
+2025-10-24 14:21:55,874 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
+2025-10-24 14:21:55,877 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/", "status_code": 200, "process_time": "0.001s", "request_body": null}
+2025-10-24 14:22:04,652 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
+2025-10-24 14:22:04,658 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/", "status_code": 200, "process_time": "0.002s", "request_body": null}
+2025-10-24 14:22:27,891 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
+2025-10-24 14:22:27,903 | ERROR | medvault_logger | HTTP Error: Object of type Gender is not JSON serializable
+2025-10-24 14:24:10,589 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.000s", "request_body": null}
+2025-10-24 14:24:10,592 | INFO | medvault_logger | Fetching all master data
+2025-10-24 14:24:10,597 | INFO | medvault_logger | Fetched all master data successfully
+2025-10-24 14:24:10,597 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/", "status_code": 200, "process_time": "0.005s", "request_body": null}
+2025-10-24 14:30:31,378 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
+2025-10-24 14:30:31,382 | INFO | medvault_logger | Fetching all master data
+2025-10-24 14:30:31,390 | INFO | medvault_logger | Fetched all master data successfully
+2025-10-24 14:30:31,391 | ERROR | medvault_logger | HTTP Error: Object of type Gender is not JSON serializable
+2025-10-24 14:38:13,244 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
+2025-10-24 14:38:13,249 | INFO | medvault_logger | Fetching all master data
+2025-10-24 14:38:13,256 | INFO | medvault_logger | Fetched all master data successfully
+2025-10-24 14:38:13,257 | ERROR | medvault_logger | HTTP Error: Object of type Gender is not JSON serializable
+2025-10-24 17:09:35,679 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
+2025-10-24 17:09:35,684 | INFO | medvault_logger | Fetching all master data
+2025-10-24 17:09:35,685 | ERROR | medvault_logger | Failed fetching master data: You must set the config attribute `from_attributes=True` to use from_orm
+2025-10-24 17:09:35,686 | ERROR | medvault_logger | HTTP Error: You must set the config attribute `from_attributes=True` to use from_orm
+2025-10-24 17:15:27,757 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
+2025-10-24 17:15:27,761 | INFO | medvault_logger | Fetching all master data
+2025-10-24 17:15:27,768 | INFO | medvault_logger | Fetched all master data successfully
+2025-10-24 17:15:27,768 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/", "status_code": 200, "process_time": "0.008s", "request_body": null}
+2025-10-24 17:16:16,321 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
+2025-10-24 17:16:16,325 | INFO | medvault_logger | Fetching all master data
+2025-10-24 17:16:16,334 | INFO | medvault_logger | Fetched all master data successfully
+2025-10-24 17:16:16,334 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/", "status_code": 200, "process_time": "0.010s", "request_body": null}
+2025-10-24 17:20:50,220 | ERROR | medvault_logger | HTTP Error: name 'MODEL_MAP' is not defined
+2025-10-24 17:21:16,430 | ERROR | medvault_logger | HTTP Error: attribute name must be string, not 'ModelMetaclass'
+2025-10-24 17:22:06,325 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/genders", "status_code": 404, "process_time": "0.001s", "request_body": null}
+2025-10-24 17:22:47,969 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/genders", "status_code": 404, "process_time": "0.001s", "request_body": null}
+2025-10-24 22:49:15,747 | ERROR | medvault_logger | HTTP Error: name 'internal_error' is not defined
+2025-10-24 22:51:37,241 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/genders", "status_code": 500, "process_time": "0.001s", "request_body": null}
+2025-10-24 22:51:47,954 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/genders", "status_code": 500, "process_time": "0.001s", "request_body": null}
+2025-10-24 22:52:24,510 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/genders", "status_code": 500, "process_time": "0.000s", "request_body": null}
+2025-10-24 22:53:28,596 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/genders", "status_code": 500, "process_time": "0.001s", "request_body": null}
+2025-10-24 22:53:32,492 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/genders", "status_code": 500, "process_time": "0.001s", "request_body": null}
+2025-10-24 22:54:13,418 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/genders", "status_code": 500, "process_time": "0.001s", "request_body": null}
+2025-10-24 22:56:13,238 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
+2025-10-24 22:56:13,242 | INFO | medvault_logger | Fetching all master data
+2025-10-24 22:56:13,251 | INFO | medvault_logger | Fetched all master data successfully
+2025-10-24 22:56:13,251 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/", "status_code": 200, "process_time": "0.010s", "request_body": null}
+2025-10-24 22:56:17,260 | INFO | medvault_logger | Requested master data for type: genders
+2025-10-24 22:56:17,261 | INFO | medvault_logger | Fetched 6 rows for genders
+2025-10-24 22:56:17,261 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/genders", "status_code": 200, "process_time": "0.001s", "request_body": null}
+2025-10-24 22:57:28,727 | INFO | medvault_logger | Requested master data for type: genders
+2025-10-24 22:57:28,730 | INFO | medvault_logger | Fetched 2 rows for genders
+2025-10-24 22:57:28,730 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/genders", "status_code": 200, "process_time": "0.004s", "request_body": null}
+2025-10-24 22:58:08,734 | INFO | medvault_logger | Requested master data for type: unit_types
+2025-10-24 22:58:08,738 | INFO | medvault_logger | Fetched 4 rows for unit_types
+2025-10-24 22:58:08,738 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/unit_types", "status_code": 200, "process_time": "0.007s", "request_body": null}
+2025-10-24 22:58:16,290 | INFO | medvault_logger | Requested master data for type: blood_types
+2025-10-24 22:58:16,292 | INFO | medvault_logger | Fetched 8 rows for blood_types
+2025-10-24 22:58:16,292 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/blood_types", "status_code": 200, "process_time": "0.003s", "request_body": null}
+2025-10-24 22:58:22,790 | INFO | medvault_logger | Requested master data for type: smoking_levels
+2025-10-24 22:58:22,791 | INFO | medvault_logger | Fetched 3 rows for smoking_levels
+2025-10-24 22:58:22,791 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/smoking_levels", "status_code": 200, "process_time": "0.003s", "request_body": null}
+2025-10-24 22:58:33,351 | INFO | medvault_logger | Requested master data for type: alcohol_levels
+2025-10-24 22:58:33,356 | INFO | medvault_logger | Fetched 3 rows for alcohol_levels
+2025-10-24 22:58:33,357 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/alcohol_levels", "status_code": 200, "process_time": "0.008s", "request_body": null}
