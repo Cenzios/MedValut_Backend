@@ -1,47 +1,46 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, Path
 from sqlalchemy.ext.asyncio import AsyncSession
+from typing import Dict, Any
+
 from app.core.database import get_db
 from app.modules.master_data.services import MasterDataService
 from app.utils.response import success_response, not_found, internal_error
-
+from app.modules.master_data.services import MODEL_SCHEMA_MAP  # for validation
 
 router = APIRouter(prefix="/master-data", tags=["Master Data"])
 
 
-# -------------------------------
-# Get all master data
-# -------------------------------
-@router.get("/", summary="Get all master data")
+@router.get("/all", summary="Get all master data")
 async def get_all_master_data(db: AsyncSession = Depends(get_db)):
     """
-    Retrieve all master data in one call.
+    Retrieve all master data at once.
     """
     service = MasterDataService(db)
-    try:
-        data = await service.get_all_master_data()
-        return success_response(data=data, message="All master data retrieved successfully.")
-    except ValueError:
-        return not_found(message="All master data types not found.")
-    except Exception:
-        return internal_error(message="Failed to fetch master data.")
+    response = await service.get_all_master_data()
+    return response  # service already returns a HTTP-ready response
 
 
-# -------------------------------
-# Get single master data type
-# Example: /master-data/genders
-# -------------------------------
-@router.get("/{data_type}", summary="Get single master data type")
-async def get_single_master_data(data_type: str, db: AsyncSession = Depends(get_db)):
+@router.get(
+    "/{data_type}",
+    summary="Get single master data type",
+)
+async def get_single_master_data(
+    data_type: str = Path(
+        ...,
+        description="Type of master data to retrieve",
+        example="genders",
+        regex="^[a-zA-Z_]+$",
+    ),
+    db: AsyncSession = Depends(get_db),
+) -> Dict[str, Any]:
     """
     Retrieve a single type of master data, e.g., genders, blood_types.
-    The service maps the string to the right model+schema and returns JSON-safe dicts.
+    Input is validated against allowed master data types.
     """
-    service = MasterDataService(db)
-    try:
-        data = await service.get_master_data_by_type(data_type)
-        print (f"Fetched data for type {data_type}: {data}")
-        return success_response(data=data, message=f"{data_type} retrieved successfully.")
-    except ValueError:
+    allowed_types = MODEL_SCHEMA_MAP.keys()
+    if data_type.lower() not in allowed_types:
         return not_found(message=f"Master data type '{data_type}' not found.")
-    except Exception as e:
-        return internal_error(message="Failed to fetch master data.: " + str(e))
+
+    service = MasterDataService(db)
+    response = await service.get_master_data_by_type(data_type)
+    return response  # service already returns a HTTP-ready response

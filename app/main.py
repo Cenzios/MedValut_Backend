@@ -14,7 +14,7 @@ from app.middleware.version_middleware import VersionMiddleware
 from app.utils.exception_handler import (
     all_exception_handler,
     http_exception_handler,
-    validation_exception_handler
+    validation_exception_handler,
 )
 from starlette.exceptions import HTTPException as StarletteHTTPException
 from fastapi.exceptions import RequestValidationError
@@ -27,6 +27,9 @@ from app.seed.seed import run_seeds
 
 # Routes
 from app.modules.master_data import controllers as master_data_controller
+# from app.modules.user import controllers as user_controller
+from app.modules.auth import controllers as auth_controller
+
 
 # ----------------------- FastAPI App Setup -----------------------
 app = FastAPI(title=settings.APP_NAME, version=settings.API_VERSION)
@@ -36,7 +39,7 @@ app.add_middleware(HTTPLoggerMiddleware)
 app.add_middleware(VersionMiddleware)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.cors_origins_list,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -47,6 +50,7 @@ app.add_exception_handler(Exception, all_exception_handler)
 app.add_exception_handler(StarletteHTTPException, http_exception_handler)
 app.add_exception_handler(RequestValidationError, validation_exception_handler)
 
+
 # ----------------------- Routes -----------------------
 @app.get("/")
 async def health_check():
@@ -54,8 +58,9 @@ async def health_check():
         "success": True,
         "message": "Service is healthy.",
         "environment": settings.ENVIRONMENT,
-        "app": settings.APP_NAME
+        "app": settings.APP_NAME,
     }
+
 
 @app.get("/api/health/check")
 async def health_check():
@@ -63,10 +68,14 @@ async def health_check():
         "success": True,
         "message": "Service is healthy.",
         "environment": settings.ENVIRONMENT,
-        "app": settings.APP_NAME
+        "app": settings.APP_NAME,
     }
 
+
 app.include_router(master_data_controller.router)
+app.include_router(auth_controller.router)
+# app.include_router(user_controller.router)
+
 
 # ----------------------- Startup Event -----------------------
 @app.on_event("startup")
