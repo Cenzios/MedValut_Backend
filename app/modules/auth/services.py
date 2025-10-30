@@ -18,6 +18,7 @@ from app.utils.password_utils import PasswordUtils
 from app.utils.email_utils import EmailUtils
 from app.utils.sms_utils import SMSUtils
 from app.utils.action_logger import log_action
+from app.utils.serializers import model_to_dict
 from app.core.config import settings
 
 
@@ -50,8 +51,8 @@ class AuthService:
             full_name=dto.full_name,
             nic=dto.nic,
             is_active=True,
-            email_verified=False,
-            phone_verified=False,
+            is_email_verified=False,
+            sign_up_method=1,
         )
 
         new_user = await self.user_repo.create_user(new_user)
@@ -90,12 +91,11 @@ class AuthService:
         # Log action
         await log_action(new_user.id, "user_registered", {"email": new_user.email})
 
-        new_user = User.from_orm(new_user)
-        
+
         return {
             "success": True,
             "message": "Registration successful",
-            "data": {"user": new_user},
+            "data": {"user": model_to_dict(new_user)},
         }
 
     # -------------------- Login --------------------
@@ -132,11 +132,6 @@ class AuthService:
 
     # -------------------- Request OTP --------------------
     async def request_otp(self, dto: RequestOTPRequest) -> Dict[str, Any]:
-        # Check if user exists
-        user = await self.user_repo.get_by_email(dto.email)
-        if not user:
-            raise HTTPException(status_code=404, detail="User not found")
-
         # Check if OTP is already sent recently
         existing_otp = await self.user_repo.get_active_otp(dto.email, dto.otp_type)
         if existing_otp and (datetime.utcnow() - existing_otp.created_at).total_seconds() < 60:
@@ -148,7 +143,7 @@ class AuthService:
         
         # Create and save OTP record
         otp_record = await self.user_repo.create_otp(
-            email=user.email,
+            email=dto.email,
             otp_code=otp_code,
             otp_type=dto.otp_type,
             otp_reference=otp_reference
@@ -157,14 +152,11 @@ class AuthService:
             raise HTTPException(status_code=500, detail="Failed to create OTP")
 
         # Send OTP via email
-        is_sent = await EmailUtils.send_otp_email(user.email, otp_code, dto.otp_type.value)
+        is_sent = await EmailUtils.send_otp_email(dto.email, otp_code, dto.otp_type.value)
         if not is_sent:
             raise HTTPException(status_code=500, detail="Failed to send OTP")
-        
-        # Log action
-        await log_action(user.id, "user_request_otp", {"email": user.email, "otp_type": dto.otp_type.value})
 
-        return {"success": True, "message": f"OTP sent to {user.email}", "data": {"otp_reference": otp_reference}}
+        return {"success": True, "message": f"OTP sent to {dto.email}", "data": {"otp_reference": otp_reference}}
 
     # -------------------- Verify OTP --------------------
     async def verify_otp(self, dto: VerifyOTPRequest) -> Dict[str, Any]:
@@ -178,7 +170,7 @@ class AuthService:
         if dto.otp_type == OTPType.EMAIL_VERIFICATION and dto.email:
             await self.user_repo.mark_email_verified(dto.email)
         
-        return {"success": True, "message": "OTP verified successfully", "data": None}
+        return {"success": True, "message": "OTP verified successfully", "data": {"email": dto.email}}
 
     # -------------------- Refresh token --------------------
     async def refresh_access_token(self, refresh_token: str) -> Dict[str, Any]:

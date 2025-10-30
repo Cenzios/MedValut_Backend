@@ -1,169 +1,29 @@
-2025-10-24 10:36:27,473 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/", "status_code": 200, "process_time": "0.002s", "request_body": null}
-2025-10-24 11:22:21,440 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/", "status_code": 200, "process_time": "0.002s", "request_body": null}
-2025-10-24 11:29:23,208 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master_data", "status_code": 404, "process_time": "0.003s", "request_body": null}
-2025-10-24 11:30:10,787 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master_data", "status_code": 404, "process_time": "0.001s", "request_body": null}
-2025-10-24 11:30:11,814 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master_data", "status_code": 404, "process_time": "0.000s", "request_body": null}
-2025-10-24 11:31:31,676 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master_data", "status_code": 404, "process_time": "0.001s", "request_body": null}
-2025-10-24 11:31:40,889 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master_data", "status_code": 404, "process_time": "0.001s", "request_body": null}
-2025-10-24 11:32:14,681 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master_data", "status_code": 404, "process_time": "0.001s", "request_body": null}
-2025-10-24 11:32:15,750 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master_data", "status_code": 404, "process_time": "0.001s", "request_body": null}
-2025-10-24 11:32:16,396 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master_data", "status_code": 404, "process_time": "0.000s", "request_body": null}
-2025-10-24 14:19:16,442 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.007s", "request_body": null}
-2025-10-24 14:19:16,476 | ERROR | medvault_logger | HTTP Error: Object of type Gender is not JSON serializable
-2025-10-24 14:20:19,168 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
-2025-10-24 14:20:19,174 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/", "status_code": 200, "process_time": "0.001s", "request_body": null}
-2025-10-24 14:21:15,585 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
-2025-10-24 14:21:15,588 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/", "status_code": 200, "process_time": "0.001s", "request_body": null}
-2025-10-24 14:21:31,998 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
-2025-10-24 14:21:32,002 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/", "status_code": 200, "process_time": "0.001s", "request_body": null}
-2025-10-24 14:21:55,874 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
-2025-10-24 14:21:55,877 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/", "status_code": 200, "process_time": "0.001s", "request_body": null}
-2025-10-24 14:22:04,652 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
-2025-10-24 14:22:04,658 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/", "status_code": 200, "process_time": "0.002s", "request_body": null}
-2025-10-24 14:22:27,891 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
-2025-10-24 14:22:27,903 | ERROR | medvault_logger | HTTP Error: Object of type Gender is not JSON serializable
-2025-10-24 14:24:10,589 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.000s", "request_body": null}
-2025-10-24 14:24:10,592 | INFO | medvault_logger | Fetching all master data
-2025-10-24 14:24:10,597 | INFO | medvault_logger | Fetched all master data successfully
-2025-10-24 14:24:10,597 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/", "status_code": 200, "process_time": "0.005s", "request_body": null}
-2025-10-24 14:30:31,378 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
-2025-10-24 14:30:31,382 | INFO | medvault_logger | Fetching all master data
-2025-10-24 14:30:31,390 | INFO | medvault_logger | Fetched all master data successfully
-2025-10-24 14:30:31,391 | ERROR | medvault_logger | HTTP Error: Object of type Gender is not JSON serializable
-2025-10-24 14:38:13,244 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
-2025-10-24 14:38:13,249 | INFO | medvault_logger | Fetching all master data
-2025-10-24 14:38:13,256 | INFO | medvault_logger | Fetched all master data successfully
-2025-10-24 14:38:13,257 | ERROR | medvault_logger | HTTP Error: Object of type Gender is not JSON serializable
-2025-10-24 17:09:35,679 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
-2025-10-24 17:09:35,684 | INFO | medvault_logger | Fetching all master data
-2025-10-24 17:09:35,685 | ERROR | medvault_logger | Failed fetching master data: You must set the config attribute `from_attributes=True` to use from_orm
-2025-10-24 17:09:35,686 | ERROR | medvault_logger | HTTP Error: You must set the config attribute `from_attributes=True` to use from_orm
-2025-10-24 17:15:27,757 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
-2025-10-24 17:15:27,761 | INFO | medvault_logger | Fetching all master data
-2025-10-24 17:15:27,768 | INFO | medvault_logger | Fetched all master data successfully
-2025-10-24 17:15:27,768 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/", "status_code": 200, "process_time": "0.008s", "request_body": null}
-2025-10-24 17:16:16,321 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
-2025-10-24 17:16:16,325 | INFO | medvault_logger | Fetching all master data
-2025-10-24 17:16:16,334 | INFO | medvault_logger | Fetched all master data successfully
-2025-10-24 17:16:16,334 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/", "status_code": 200, "process_time": "0.010s", "request_body": null}
-2025-10-24 17:20:50,220 | ERROR | medvault_logger | HTTP Error: name 'MODEL_MAP' is not defined
-2025-10-24 17:21:16,430 | ERROR | medvault_logger | HTTP Error: attribute name must be string, not 'ModelMetaclass'
-2025-10-24 17:22:06,325 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/genders", "status_code": 404, "process_time": "0.001s", "request_body": null}
-2025-10-24 17:22:47,969 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/genders", "status_code": 404, "process_time": "0.001s", "request_body": null}
-2025-10-24 22:49:15,747 | ERROR | medvault_logger | HTTP Error: name 'internal_error' is not defined
-2025-10-24 22:51:37,241 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/genders", "status_code": 500, "process_time": "0.001s", "request_body": null}
-2025-10-24 22:51:47,954 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/genders", "status_code": 500, "process_time": "0.001s", "request_body": null}
-2025-10-24 22:52:24,510 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/genders", "status_code": 500, "process_time": "0.000s", "request_body": null}
-2025-10-24 22:53:28,596 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/genders", "status_code": 500, "process_time": "0.001s", "request_body": null}
-2025-10-24 22:53:32,492 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/genders", "status_code": 500, "process_time": "0.001s", "request_body": null}
-2025-10-24 22:54:13,418 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/genders", "status_code": 500, "process_time": "0.001s", "request_body": null}
-2025-10-24 22:56:13,238 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data", "status_code": 307, "process_time": "0.001s", "request_body": null}
-2025-10-24 22:56:13,242 | INFO | medvault_logger | Fetching all master data
-2025-10-24 22:56:13,251 | INFO | medvault_logger | Fetched all master data successfully
-2025-10-24 22:56:13,251 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/", "status_code": 200, "process_time": "0.010s", "request_body": null}
-2025-10-24 22:56:17,260 | INFO | medvault_logger | Requested master data for type: genders
-2025-10-24 22:56:17,261 | INFO | medvault_logger | Fetched 6 rows for genders
-2025-10-24 22:56:17,261 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/genders", "status_code": 200, "process_time": "0.001s", "request_body": null}
-2025-10-24 22:57:28,727 | INFO | medvault_logger | Requested master data for type: genders
-2025-10-24 22:57:28,730 | INFO | medvault_logger | Fetched 2 rows for genders
-2025-10-24 22:57:28,730 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/genders", "status_code": 200, "process_time": "0.004s", "request_body": null}
-2025-10-24 22:58:08,734 | INFO | medvault_logger | Requested master data for type: unit_types
-2025-10-24 22:58:08,738 | INFO | medvault_logger | Fetched 4 rows for unit_types
-2025-10-24 22:58:08,738 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/unit_types", "status_code": 200, "process_time": "0.007s", "request_body": null}
-2025-10-24 22:58:16,290 | INFO | medvault_logger | Requested master data for type: blood_types
-2025-10-24 22:58:16,292 | INFO | medvault_logger | Fetched 8 rows for blood_types
-2025-10-24 22:58:16,292 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/blood_types", "status_code": 200, "process_time": "0.003s", "request_body": null}
-2025-10-24 22:58:22,790 | INFO | medvault_logger | Requested master data for type: smoking_levels
-2025-10-24 22:58:22,791 | INFO | medvault_logger | Fetched 3 rows for smoking_levels
-2025-10-24 22:58:22,791 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/smoking_levels", "status_code": 200, "process_time": "0.003s", "request_body": null}
-2025-10-24 22:58:33,351 | INFO | medvault_logger | Requested master data for type: alcohol_levels
-2025-10-24 22:58:33,356 | INFO | medvault_logger | Fetched 3 rows for alcohol_levels
-2025-10-24 22:58:33,357 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/master-data/alcohol_levels", "status_code": 200, "process_time": "0.008s", "request_body": null}
-2025-10-29 13:17:09,424 | INFO | medvault_logger | {"method": "GET", "url": "http://localhost:8000/api/health/check", "status_code": 404, "process_time": "0.001s", "request_body": null}
-2025-10-29 13:18:30,352 | INFO | medvault_logger | {"method": "GET", "url": "http://localhost:8000/api/health/check", "status_code": 200, "process_time": "0.001s", "request_body": null}
-2025-10-29 17:20:20,902 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/api/health/check", "status_code": 200, "process_time": "0.001s", "request_body": null}
-2025-10-29 17:21:35,445 | INFO | medvault_logger | {"method": "POST", "url": "http://localhost:8000/auth/login", "status_code": 400, "process_time": "0.003s", "request_body": "{\"email\":\"ruvinda.mail@gmail.com\",\"password\":\"1234\"}"}
-2025-10-29 17:21:46,013 | INFO | medvault_logger | {"method": "POST", "url": "http://localhost:8000/auth/login", "status_code": 400, "process_time": "0.002s", "request_body": "{\"email\":\"ruvinda.mail@gmail.com\",\"password\":\"1234\"}"}
-2025-10-29 17:26:31,903 | INFO | medvault_logger | {"method": "GET", "url": "http://127.0.0.1:8000/auth/request-otp", "status_code": 405, "process_time": "0.001s", "request_body": "{\n    \"identifier\": \"ruvinda.mail@gmail.com\",\n    \"otp_type\": \"email_verification\",\n    \"\"\n}"}
-2025-10-29 17:27:22,307 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/request-otp", "status_code": 400, "process_time": "0.002s", "request_body": "{\n    \"identifier\": \"ruvinda.mail@gmail.com\",\n    \"otp_type\": \"email_verification\",\n    \"\"\n}"}
-2025-10-29 17:27:38,018 | INFO | medvault_logger | Email sent successfully to ruvinda.mail@gmail.com
-2025-10-29 17:27:38,019 | INFO | medvault_logger | OTP sent to ruvinda.mail@gmail.com for email_verification
-2025-10-29 17:27:38,020 | INFO | medvault_logger | OTP requested for ruvinda.mail@gmail.com, type: OTPType.EMAIL_VERIFICATION
-2025-10-29 17:27:38,022 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/request-otp", "status_code": 200, "process_time": "5.654s", "request_body": "{\n    \"identifier\": \"ruvinda.mail@gmail.com\",\n    \"otp_type\": \"email_verification\"\n}"}
-2025-10-29 17:28:20,098 | INFO | medvault_logger | Email sent successfully to cenzios.dev@gmail.com
-2025-10-29 17:28:20,099 | INFO | medvault_logger | OTP sent to cenzios.dev@gmail.com for email_verification
-2025-10-29 17:28:20,099 | INFO | medvault_logger | OTP requested for cenzios.dev@gmail.com, type: OTPType.EMAIL_VERIFICATION
-2025-10-29 17:28:20,100 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/request-otp", "status_code": 200, "process_time": "1.481s", "request_body": "{\n    \"identifier\": \"cenzios.dev@gmail.com\",\n    \"otp_type\": \"email_verification\"\n}"}
-2025-10-29 17:29:53,089 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/verify-otp", "status_code": 400, "process_time": "0.004s", "request_body": "{\n    \"identifier\": \"ruinda.mail@gmail.com\",\n    \"otp_code\": 135746,\n    \"otp_type\": \"email_verification\"\n}"}
-2025-10-29 17:29:59,161 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/verify-otp", "status_code": 400, "process_time": "0.007s", "request_body": "{\n    \"identifier\": \"ruinda.mail@gmail.com\",\n    \"otp_code\": \"135746\",\n    \"otp_type\": \"email_verification\"\n}"}
-2025-10-29 17:30:20,972 | INFO | medvault_logger | OTP verified for ruvinda.mail@gmail.com, type: OTPType.EMAIL_VERIFICATION
-2025-10-29 17:30:20,972 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/verify-otp", "status_code": 200, "process_time": "0.014s", "request_body": "{\n    \"identifier\": \"ruvinda.mail@gmail.com\",\n    \"otp_code\": \"135746\",\n    \"otp_type\": \"email_verification\"\n}"}
-2025-10-29 17:32:27,031 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/register", "status_code": 400, "process_time": "0.002s", "request_body": "{\n    \"email\": \"ruvinda.mail@gmail.com\",\n    \"phone_number\": \"0714146019\",\n    \"password\": \"1234\",\n    \"first_name\": \"Ruvinda\",\n    \"last_name\": \"Tharaka\",\n    \n}"}
-2025-10-29 17:32:33,163 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/register", "status_code": 400, "process_time": "0.017s", "request_body": "{\n    \"email\": \"ruvinda.mail@gmail.com\",\n    \"phone_number\": \"0714146019\",\n    \"password\": \"1234\",\n    \"first_name\": \"Ruvinda\",\n    \"last_name\": \"Tharaka\"\n}"}
-2025-10-29 17:32:45,410 | ERROR | medvault_logger | Error during user registration: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
-2025-10-29 17:32:45,411 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/register", "status_code": 500, "process_time": "0.031s", "request_body": "{\n    \"email\": \"ruvinda.mail@gmail.com\",\n    \"phone_number\": \"0714146019\",\n    \"password\": \"Test@123\",\n    \"first_name\": \"Ruvinda\",\n    \"last_name\": \"Tharaka\"\n}"}
-2025-10-29 17:38:11,932 | INFO | medvault_logger | Email sent successfully to ruvinda.mail@gmail.com
-2025-10-29 17:38:11,933 | INFO | medvault_logger | Email verification sent to ruvinda.mail@gmail.com
-2025-10-29 17:38:12,494 | INFO | medvault_logger | Successfully obtained Dialog auth token
-2025-10-29 17:38:12,833 | ERROR | medvault_logger | Failed to send SMS to 0714146019: 400 - {"status":"failed","comment":"transaction_id can't be empty and invalid character length for transaction_id and msisdn list can't be empty","data":null,"errCode":"107","transaction_id":""}
-2025-10-29 17:38:12,834 | INFO | medvault_logger | SMS verification sent to 0714146019
-2025-10-29 17:38:12,835 | INFO | medvault_logger | ACTION: {'timestamp': '2025-10-29T12:08:12.835108+00:00', 'user_id': 1, 'action': 'user_registered', 'details': {'email': 'ruvinda.mail@gmail.com', 'phone_number': '0714146019', 'verification_sent': True}}
-2025-10-29 17:38:12,852 | INFO | medvault_logger | User registered successfully: ruvinda.mail@gmail.com
-2025-10-29 17:38:12,853 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/register", "status_code": 200, "process_time": "2.676s", "request_body": "{\n    \"email\": \"ruvinda.mail@gmail.com\",\n    \"phone_number\": \"0714146019\",\n    \"password\": \"Test@123\",\n    \"first_name\": \"Ruvinda\",\n    \"last_name\": \"Tharaka\"\n}"}
-2025-10-29 18:38:36,279 | INFO | medvault_logger | {"method": "GET", "url": "http://localhost:8000/master-data", "status_code": 404, "process_time": "0.005s", "request_body": null}
-2025-10-29 18:38:36,285 | INFO | medvault_logger | {"method": "GET", "url": "http://localhost:8000/master-data", "status_code": 404, "process_time": "0.001s", "request_body": null}
-2025-10-29 18:38:50,989 | INFO | medvault_logger | {"method": "GET", "url": "http://localhost:8000/master-data", "status_code": 404, "process_time": "0.001s", "request_body": null}
-2025-10-29 18:38:50,995 | INFO | medvault_logger | {"method": "GET", "url": "http://localhost:8000/master-data", "status_code": 404, "process_time": "0.003s", "request_body": null}
-2025-10-29 18:40:02,046 | INFO | medvault_logger | {"method": "POST", "url": "http://localhost:8000/auth/login", "status_code": 400, "process_time": "0.008s", "request_body": "{\"email\":\"ruvinda.mail@gmail.com\",\"password\":\"Test@123\"}"}
-2025-10-29 18:41:13,793 | INFO | medvault_logger | ACTION: {'timestamp': '2025-10-29T13:11:13.793802+00:00', 'user_id': 1, 'action': 'user_login', 'details': {'ip_address': '127.0.0.1', 'user_agent': 'PostmanRuntime/7.49.0', 'remember_me': False}}
-2025-10-29 18:41:13,801 | INFO | medvault_logger | User logged in successfully: ruvinda.mail@gmail.com
-2025-10-29 18:41:13,801 | ERROR | medvault_logger | Login error: Object of type datetime is not JSON serializable
-2025-10-29 18:41:13,801 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/login", "status_code": 500, "process_time": "0.376s", "request_body": "{\n    \"identifier\": \"ruvinda.mail@gmail.com\",\n    \"password\": \"Test@123\",\n    \"remember_me\": false\n}"}
-2025-10-29 18:41:22,753 | INFO | medvault_logger | ACTION: {'timestamp': '2025-10-29T13:11:22.753079+00:00', 'user_id': 1, 'action': 'user_login', 'details': {'ip_address': '127.0.0.1', 'user_agent': 'PostmanRuntime/7.49.0', 'remember_me': False}}
-2025-10-29 18:41:22,755 | INFO | medvault_logger | User logged in successfully: ruvinda.mail@gmail.com
-2025-10-29 18:41:22,755 | ERROR | medvault_logger | Login error: Object of type datetime is not JSON serializable
-2025-10-29 18:41:22,755 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/login", "status_code": 500, "process_time": "0.273s", "request_body": "{\n    \"identifier\": \"ruvinda.mail@gmail.com\",\n    \"password\": \"Test@123\",\n    \"remember_me\": false\n}"}
-2025-10-29 18:42:27,299 | INFO | medvault_logger | ACTION: {'timestamp': '2025-10-29T13:12:27.299663+00:00', 'user_id': 1, 'action': 'user_login', 'details': {'ip_address': '127.0.0.1', 'user_agent': 'PostmanRuntime/7.49.0', 'remember_me': False}}
-2025-10-29 18:42:27,313 | INFO | medvault_logger | User logged in successfully: ruvinda.mail@gmail.com
-2025-10-29 18:42:27,315 | ERROR | medvault_logger | Login error: Object of type datetime is not JSON serializable
-2025-10-29 18:42:27,317 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/login", "status_code": 500, "process_time": "0.536s", "request_body": "{\n    \"identifier\": \"ruvinda.mail@gmail.com\",\n    \"password\": \"Test@123\",\n    \"remember_me\": false\n}"}
-2025-10-29 18:46:44,256 | INFO | medvault_logger | ACTION: {'timestamp': '2025-10-29T13:16:44.256346+00:00', 'user_id': 1, 'action': 'user_login', 'details': {'ip_address': '127.0.0.1', 'user_agent': 'PostmanRuntime/7.49.0', 'remember_me': False}}
-2025-10-29 18:46:44,259 | INFO | medvault_logger | User logged in successfully: ruvinda.mail@gmail.com
-2025-10-29 18:46:44,259 | ERROR | medvault_logger | Login error: Object of type datetime is not JSON serializable
-2025-10-29 18:46:44,259 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/login", "status_code": 500, "process_time": "0.259s", "request_body": "{\n    \"identifier\": \"ruvinda.mail@gmail.com\",\n    \"password\": \"Test@123\",\n    \"remember_me\": false\n}"}
-2025-10-29 18:46:59,941 | INFO | medvault_logger | ACTION: {'timestamp': '2025-10-29T13:16:59.941607+00:00', 'user_id': 1, 'action': 'user_login', 'details': {'ip_address': '127.0.0.1', 'user_agent': 'PostmanRuntime/7.49.0', 'remember_me': False}}
-2025-10-29 18:46:59,944 | INFO | medvault_logger | User logged in successfully: ruvinda.mail@gmail.com
-2025-10-29 18:46:59,944 | ERROR | medvault_logger | Login error: Object of type datetime is not JSON serializable
-2025-10-29 18:46:59,944 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/login", "status_code": 500, "process_time": "0.295s", "request_body": "{\n    \"identifier\": \"ruvinda.mail@gmail.com\",\n    \"password\": \"Test@123\",\n    \"remember_me\": false\n}"}
-2025-10-29 18:47:57,932 | INFO | medvault_logger | ACTION: {'timestamp': '2025-10-29T13:17:57.932932+00:00', 'user_id': 1, 'action': 'user_login', 'details': {'ip_address': '127.0.0.1', 'user_agent': 'PostmanRuntime/7.49.0', 'remember_me': False}}
-2025-10-29 18:47:57,935 | INFO | medvault_logger | User logged in successfully: ruvinda.mail@gmail.com
-2025-10-29 18:47:57,936 | ERROR | medvault_logger | Login error: Object of type datetime is not JSON serializable
-2025-10-29 18:47:57,936 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/login", "status_code": 500, "process_time": "0.300s", "request_body": "{\n    \"identifier\": \"ruvinda.mail@gmail.com\",\n    \"password\": \"Test@123\",\n    \"remember_me\": false\n}"}
-2025-10-29 18:48:47,511 | INFO | medvault_logger | ACTION: {'timestamp': '2025-10-29T13:18:47.511596+00:00', 'user_id': 1, 'action': 'user_login', 'details': {'ip_address': '127.0.0.1', 'user_agent': 'PostmanRuntime/7.49.0', 'remember_me': False}}
-2025-10-29 18:48:47,514 | INFO | medvault_logger | User logged in successfully: ruvinda.mail@gmail.com
-2025-10-29 18:48:47,514 | ERROR | medvault_logger | Login error: Object of type datetime is not JSON serializable
-2025-10-29 18:48:47,515 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/login", "status_code": 500, "process_time": "0.295s", "request_body": "{\n    \"identifier\": \"ruvinda.mail@gmail.com\",\n    \"password\": \"Test@123\",\n    \"remember_me\": false\n}"}
-2025-10-29 18:49:31,227 | INFO | medvault_logger | ACTION: {'timestamp': '2025-10-29T13:19:31.227360+00:00', 'user_id': 1, 'action': 'user_login', 'details': {'ip_address': '127.0.0.1', 'user_agent': 'PostmanRuntime/7.49.0', 'remember_me': False}}
-2025-10-29 18:49:31,230 | INFO | medvault_logger | User logged in successfully: ruvinda.mail@gmail.com
-2025-10-29 18:49:31,230 | ERROR | medvault_logger | Login error: Object of type datetime is not JSON serializable
-2025-10-29 18:49:31,230 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/login", "status_code": 500, "process_time": "0.261s", "request_body": "{\n    \"identifier\": \"ruvinda.mail@gmail.com\",\n    \"password\": \"Test@123\",\n    \"remember_me\": false\n}"}
-2025-10-29 18:50:58,284 | INFO | medvault_logger | ACTION: {'timestamp': '2025-10-29T13:20:58.284685+00:00', 'user_id': 1, 'action': 'user_login', 'details': {'ip_address': '127.0.0.1', 'user_agent': 'PostmanRuntime/7.49.0', 'remember_me': False}}
-2025-10-29 18:50:58,309 | INFO | medvault_logger | User logged in successfully: ruvinda.mail@gmail.com
-2025-10-29 18:50:58,309 | ERROR | medvault_logger | Login error: Object of type datetime is not JSON serializable
-2025-10-29 18:50:58,309 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/login", "status_code": 500, "process_time": "0.313s", "request_body": "{\n    \"identifier\": \"ruvinda.mail@gmail.com\",\n    \"password\": \"Test@123\",\n    \"remember_me\": false\n}"}
-2025-10-29 18:51:24,902 | INFO | medvault_logger | ACTION: {'timestamp': '2025-10-29T13:21:24.902077+00:00', 'user_id': 1, 'action': 'user_login', 'details': {'ip_address': '127.0.0.1', 'user_agent': 'PostmanRuntime/7.49.0', 'remember_me': False}}
-2025-10-29 18:51:24,904 | INFO | medvault_logger | User logged in successfully: ruvinda.mail@gmail.com
-2025-10-29 18:51:24,904 | ERROR | medvault_logger | Login error: Object of type datetime is not JSON serializable
-2025-10-29 18:51:24,905 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/login", "status_code": 500, "process_time": "0.297s", "request_body": "{\n    \"identifier\": \"ruvinda.mail@gmail.com\",\n    \"password\": \"Test@123\",\n    \"remember_me\": false\n}"}
-2025-10-29 18:53:21,591 | INFO | medvault_logger | ACTION: {'timestamp': '2025-10-29T13:23:21.591175+00:00', 'user_id': 1, 'action': 'user_login', 'details': {'ip_address': '127.0.0.1', 'user_agent': 'PostmanRuntime/7.49.0', 'remember_me': False}}
-2025-10-29 18:53:21,594 | INFO | medvault_logger | User logged in successfully: ruvinda.mail@gmail.com
-2025-10-29 18:53:21,594 | ERROR | medvault_logger | Login error: Object of type datetime is not JSON serializable
-2025-10-29 18:53:21,594 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/login", "status_code": 500, "process_time": "0.356s", "request_body": "{\n    \"identifier\": \"ruvinda.mail@gmail.com\",\n    \"password\": \"Test@123\",\n    \"remember_me\": false\n}"}
-2025-10-29 18:55:18,459 | INFO | medvault_logger | ACTION: {'timestamp': '2025-10-29T13:25:18.459723+00:00', 'user_id': 1, 'action': 'user_login', 'details': {'ip_address': '127.0.0.1', 'user_agent': 'PostmanRuntime/7.49.0', 'remember_me': False}}
-2025-10-29 18:55:18,461 | INFO | medvault_logger | User logged in successfully: ruvinda.mail@gmail.com
-2025-10-29 18:55:18,461 | ERROR | medvault_logger | Login error: Object of type datetime is not JSON serializable
-2025-10-29 18:55:18,462 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/login", "status_code": 500, "process_time": "0.297s", "request_body": "{\n    \"identifier\": \"ruvinda.mail@gmail.com\",\n    \"password\": \"Test@123\",\n    \"remember_me\": false\n}"}
-2025-10-29 18:56:50,908 | INFO | medvault_logger | ACTION: {'timestamp': '2025-10-29T13:26:50.908924+00:00', 'user_id': 1, 'action': 'user_login', 'details': {'ip_address': '127.0.0.1', 'user_agent': 'PostmanRuntime/7.49.0', 'remember_me': False}}
-2025-10-29 18:56:50,911 | INFO | medvault_logger | User logged in successfully: ruvinda.mail@gmail.com
-2025-10-29 18:56:50,911 | ERROR | medvault_logger | Login error: cannot use 'dict' as a set element (unhashable type: 'dict')
-2025-10-29 18:56:50,911 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/login", "status_code": 500, "process_time": "0.290s", "request_body": "{\n    \"identifier\": \"ruvinda.mail@gmail.com\",\n    \"password\": \"Test@123\",\n    \"remember_me\": false\n}"}
+2025-10-31 02:23:54,708 | ERROR | medvault_logger | HTTP Error: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2025-10-31 02:25:14,182 | ERROR | medvault_logger | HTTP Error: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2025-10-31 02:26:26,023 | ERROR | medvault_logger | HTTP Error: 'email_verified' is an invalid keyword argument for User
+2025-10-31 02:28:01,386 | ERROR | medvault_logger | Error creating user with email ruvinda.mail@gmail.com
+2025-10-31 02:28:01,387 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/register", "status_code": 500, "process_time": "0.273s", "request_body": "{\n    \"email\": \"ruvinda.mail@gmail.com\",\n    \"password\": \"Test@123\",\n    \"confirm_password\": \"Test@123\",\n    \"full_name\": \"Ruvinda Tharaka\",\n    \"nic\": \"200008301196\"\n}"}
+2025-10-31 02:31:07,940 | ERROR | medvault_logger | HTTP Error: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2025-10-31 02:32:31,698 | ERROR | medvault_logger | Error creating user with email ruvinda.mail@gmail.com
+2025-10-31 02:32:31,698 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/register", "status_code": 500, "process_time": "0.234s", "request_body": "{\n    \"email\": \"ruvinda.mail@gmail.com\",\n    \"password\": \"Test@123\",\n    \"confirm_password\": \"Test@123\",\n    \"full_name\": \"Ruvinda Tharaka\",\n    \"nic\": \"200008301196\"\n}"}
+2025-10-31 02:33:48,065 | INFO | medvault_logger | Error creating user: (pymysql.err.IntegrityError) (1048, "Column 'sign_up_method' cannot be null")
+[SQL: INSERT INTO users (email, phone_number, country_code, password_hash, nic, sign_up_method, social_id, full_name, date_of_birth, gender_id, gender, address, city, province, emergency_contact_name, emergency_contact_phone, emergency_contact_relationship, profile_picture_url, bio, is_profile_completed, is_email_verified, is_emergency_contact_added, login_attempts, locked_until, last_login, subscription_plan_id, subscription_start_date, subscription_end_date, height, height_unit_id, weight, weight_unit_id, blood_type_id, smoking_level_id, alcohol_level_id, exercise_level_id, pre_medical_conditions, chronical_diseases, allergies, medicones_currently_taking, surgeries_history, has_heart_disease_family_history, has_diabetes_family_history, has_hypertension_family_history, has_cancer_family_history, has_asthma_family_history, has_other_family_history, other_family_medical_history, has_genetic_disorders_family_history, family_genetic_disorders_details, is_active, created_at, updated_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, now(), now())]
+[parameters: ('ruvinda.mail@gmail.com', None, None, '$2b$12$TGcUPmwj2OeV84UXNFEyxe.bAclUDBhH9/mAR4I1y/M5ZmM33ommu', '200008301196', None, None, 'Ruvinda Tharaka', None, None, None, None, None, None, None, None, None, None, None, 0, 0, 0, 0, None, None, 1, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 0, 0, 0, 0, 0, None, None, 0, None, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-10-31 02:33:48,065 | ERROR | medvault_logger | Error creating user with email ruvinda.mail@gmail.com
+2025-10-31 02:33:48,066 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/register", "status_code": 500, "process_time": "0.289s", "request_body": "{\n    \"email\": \"ruvinda.mail@gmail.com\",\n    \"password\": \"Test@123\",\n    \"confirm_password\": \"Test@123\",\n    \"full_name\": \"Ruvinda Tharaka\",\n    \"nic\": \"200008301196\"\n}"}
+2025-10-31 02:34:25,684 | INFO | medvault_logger | Email sent successfully to ruvinda.mail@gmail.com
+2025-10-31 02:34:25,686 | INFO | medvault_logger | ACTION: {'timestamp': '2025-10-30T21:04:25.686072+00:00', 'user_id': 1, 'action': 'user_registered', 'details': {'email': 'ruvinda.mail@gmail.com'}}
+2025-10-31 02:34:25,695 | ERROR | medvault_logger | HTTP Error: type object 'User' has no attribute 'from_orm'
+2025-10-31 02:35:43,152 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/register", "status_code": 400, "process_time": "0.015s", "request_body": "{\n    \"email\": \"ruvinda.mail@gmail.com\",\n    \"password\": \"Test@123\",\n    \"confirm_password\": \"Test@123\",\n    \"full_name\": \"Ruvinda Tharaka\",\n    \"nic\": \"200008301196\"\n}"}
+2025-10-31 02:35:57,643 | INFO | medvault_logger | Email sent successfully to ruvinda.mail@gmail.com
+2025-10-31 02:35:57,644 | INFO | medvault_logger | ACTION: {'timestamp': '2025-10-30T21:05:57.644066+00:00', 'user_id': 1, 'action': 'user_registered', 'details': {'email': 'ruvinda.mail@gmail.com'}}
+2025-10-31 02:35:57,650 | ERROR | medvault_logger | HTTP Error: Object of type datetime is not JSON serializable
+2025-10-31 02:40:14,882 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/register", "status_code": 400, "process_time": "0.017s", "request_body": "{\n    \"email\": \"ruvinda.mail@gmail.com\",\n    \"password\": \"Test@123\",\n    \"confirm_password\": \"Test@123\",\n    \"full_name\": \"Ruvinda Tharaka\",\n    \"nic\": \"200008301196\"\n}"}
+2025-10-31 02:40:31,262 | INFO | medvault_logger | Email sent successfully to ruvinda.mail@gmail.com
+2025-10-31 02:40:31,262 | INFO | medvault_logger | ACTION: {'timestamp': '2025-10-30T21:10:31.262648+00:00', 'user_id': 1, 'action': 'user_registered', 'details': {'email': 'ruvinda.mail@gmail.com'}}
+2025-10-31 02:40:31,267 | ERROR | medvault_logger | HTTP Error: Object of type User is not JSON serializable
+2025-10-31 02:41:30,128 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/register", "status_code": 400, "process_time": "0.015s", "request_body": "{\n    \"email\": \"ruvinda.mail@gmail.com\",\n    \"password\": \"Test@123\",\n    \"confirm_password\": \"Test@123\",\n    \"full_name\": \"Ruvinda Tharaka\",\n    \"nic\": \"200008301196\"\n}"}
+2025-10-31 02:41:42,422 | INFO | medvault_logger | Email sent successfully to ruvindas.mail@gmail.com
+2025-10-31 02:41:42,422 | INFO | medvault_logger | ACTION: {'timestamp': '2025-10-30T21:11:42.422742+00:00', 'user_id': 2, 'action': 'user_registered', 'details': {'email': 'ruvindas.mail@gmail.com'}}
+2025-10-31 02:41:42,425 | INFO | medvault_logger | {"method": "POST", "url": "http://127.0.0.1:8000/auth/register", "status_code": 200, "process_time": "1.727s", "request_body": "{\n    \"email\": \"ruvindas.mail@gmail.com\",\n    \"password\": \"Test@123\",\n    \"confirm_password\": \"Test@123\",\n    \"full_name\": \"Ruvinda Tharaka\",\n    \"nic\": \"200008301196\"\n}"}

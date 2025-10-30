@@ -49,7 +49,8 @@ class UserRepository:
             await self.db.commit()
             await self.db.refresh(user)
             return user
-        except:
+        except Exception as e:
+            log_info(f"Error creating user: {e}")
             log_error(f"Error creating user with email {user.email}")
             return None
         
@@ -138,13 +139,13 @@ class UserRepository:
             query = (
                 update(User)
                 .where(User.email == email)
-                .values(email_verified=True, is_verified=True, updated_at=datetime.utcnow())
+                .values(is_email_verified=True, updated_at=datetime.utcnow())
             )
             await self.db.execute(query)
             await self.db.commit()
             return True
         except:
-            log_error(f"Error marking email verified for user {user_id}")
+            log_error(f"Error marking email verified for user: {email}")
             return False
 
     # -------------------- Login attempts --------------------

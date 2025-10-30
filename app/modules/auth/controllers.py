@@ -77,7 +77,7 @@ async def request_otp(dto: RequestOTPRequest, db: AsyncSession = Depends(get_db)
     response = await auth_service.request_otp(dto)
     
     if response["success"]:
-        return success_response(message=response["message"], data=response["data"].dict())
+        return success_response(message=response["message"], data=response["data"])
     else:
         return error_response(response["message"], 500)
 

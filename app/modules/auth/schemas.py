@@ -57,6 +57,7 @@ class VerifyOTPRequest(BaseModel):
     email: str = Field(..., min_length=3, max_length=255)
     otp_code: str = Field(..., min_length=4, max_length=10)
     otp_reference: str = Field(..., min_length=6, max_length=6)
+    otp_type: OTPType   
 
 
 class RefreshTokenRequest(BaseModel):

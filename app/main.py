@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import text
 from sqlalchemy.ext.asyncio import AsyncSession
+from fastapi.responses import ORJSONResponse
 
 from app.core.config import settings
 from app.core.database import get_engine, get_sessionmaker
@@ -33,6 +34,9 @@ from app.modules.auth import controllers as auth_controller
 
 # ----------------------- FastAPI App Setup -----------------------
 app = FastAPI(title=settings.APP_NAME, version=settings.API_VERSION)
+
+app = FastAPI(default_response_class=ORJSONResponse)
+
 
 # ----------------------- Middleware -----------------------
 app.add_middleware(HTTPLoggerMiddleware)
